@@ -13,6 +13,9 @@ sudo apt -y install python3-pip
 # Installs Jupyter notebooks
 pip3 install --no-input jupyterlab
 
+# Installs ipywidgets
+pip3 install --no-input ipywidgets
+
 # Creates a config file
 jupyter notebook --generate-config
 
