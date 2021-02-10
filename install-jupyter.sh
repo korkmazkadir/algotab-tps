@@ -17,10 +17,10 @@ pip3 install --no-input jupyterlab
 jupyter notebook --generate-config
 
 # Configures Jupyter
-echo -e "c.NotebookApp.ip = '*'" >> /.jupyter/jupyter_notebook_config.py
-echo -e "c.NotebookApp.port = 80" >> /.jupyter/jupyter_notebook_config.py
-echo -e "c.NotebookApp.allow_root=True" >> /.jupyter/jupyter_notebook_config.py
-echo -e "c.NotebookApp.notebook_dir = './tp-sessions'" >> /.jupyter/jupyter_notebook_config.py
+echo -e "c.NotebookApp.ip = '*'" >> ~/.jupyter/jupyter_notebook_config.py
+echo -e "c.NotebookApp.port = 80" >> ~/.jupyter/jupyter_notebook_config.py
+echo -e "c.NotebookApp.allow_root=True" >> ~/.jupyter/jupyter_notebook_config.py
+echo -e "c.NotebookApp.notebook_dir = './tp-sessions'" >> ~/.jupyter/jupyter_notebook_config.py
 
 # Creates a login password for the notebook
 printf "${RED}Create a password for your notebook...${NC}\n"
