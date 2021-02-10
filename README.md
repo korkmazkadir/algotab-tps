@@ -1,16 +1,17 @@
 # algotab-tps
 
-It contains helper functions to install Jupyter Notebook  and it contains students answers for TP sessions
+It contains helper scripts to install Jupyter Notebook.
+Answers of students are kept in tp-sessions folder.
 
 Clone the repository before using it!
 
-To install jupyter:
+## To install jupyter:
 
 ./install-jupyter.sh your_password
 (It installs the jupyter notebook on your machine)
 
 
-To backup all the TP entries of students:
+## To backup all the TP entries of students:
 
 ./backup.sh
 (It creates a git commit and push to your respository)
