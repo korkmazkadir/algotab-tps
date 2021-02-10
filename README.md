@@ -7,9 +7,9 @@ Clone the repository before using it!
 
 ## To install jupyter:
 
-./install-jupyter.sh your_password
+./install-jupyter.sh
 
-(It installs the jupyter notebook on your machine)
+(It installs the jupyter notebook on your machine, It will request a password from you)
 
 
 ## To backup all the TP entries of students:
